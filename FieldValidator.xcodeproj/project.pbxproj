@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B622720719537D3100D5C0EB /* NSString+SDValidations.m in Sources */ = {isa = PBXBuildFile; fileRef = B622720619537D3100D5C0EB /* NSString+SDValidations.m */; };
+		B622720919537F9D00D5C0EB /* SDStringValidationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B622720819537F9D00D5C0EB /* SDStringValidationTests.m */; };
+		B622720C195385D200D5C0EB /* SDTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B622720B195385D200D5C0EB /* SDTextField.m */; };
+		B622720F1953861C00D5C0EB /* SDErrorLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B622720E1953861C00D5C0EB /* SDErrorLabel.m */; };
+		B6227212195389AA00D5C0EB /* SD6PINDigitValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = B6227211195389AA00D5C0EB /* SD6PINDigitValidator.m */; };
+		B62272151953936800D5C0EB /* SD5To8PasscodeValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = B62272141953936800D5C0EB /* SD5To8PasscodeValidator.m */; };
+		B622721A195397C400D5C0EB /* SDBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6227219195397C400D5C0EB /* SDBaseViewController.m */; };
+		B622721D19539D5E00D5C0EB /* SDFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B622721C19539D5E00D5C0EB /* SDFormViewController.m */; };
 		D9AF15C5195333A500276EFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9AF15C4195333A500276EFD /* Foundation.framework */; };
 		D9AF15C7195333A500276EFD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9AF15C6195333A500276EFD /* CoreGraphics.framework */; };
 		D9AF15C9195333A500276EFD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9AF15C8195333A500276EFD /* UIKit.framework */; };
@@ -22,6 +30,7 @@
 		D9AF15E9195333A500276EFD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9AF15C8195333A500276EFD /* UIKit.framework */; };
 		D9AF15F1195333A600276EFD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9AF15EF195333A600276EFD /* InfoPlist.strings */; };
 		D9AF15F3195333A600276EFD /* FieldValidatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AF15F2195333A600276EFD /* FieldValidatorTests.m */; };
+		D9AF16011953363700276EFD /* SDValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AF16001953363700276EFD /* SDValidator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B622720519537D3100D5C0EB /* NSString+SDValidations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+SDValidations.h"; path = "Categories/NSString+SDValidations.h"; sourceTree = "<group>"; };
+		B622720619537D3100D5C0EB /* NSString+SDValidations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+SDValidations.m"; path = "Categories/NSString+SDValidations.m"; sourceTree = "<group>"; };
+		B622720819537F9D00D5C0EB /* SDStringValidationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDStringValidationTests.m; sourceTree = "<group>"; };
+		B622720A195385D200D5C0EB /* SDTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDTextField.h; path = BaseClasses/SDTextField.h; sourceTree = "<group>"; };
+		B622720B195385D200D5C0EB /* SDTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDTextField.m; path = BaseClasses/SDTextField.m; sourceTree = "<group>"; };
+		B622720D1953861C00D5C0EB /* SDErrorLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDErrorLabel.h; path = BaseClasses/SDErrorLabel.h; sourceTree = "<group>"; };
+		B622720E1953861C00D5C0EB /* SDErrorLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDErrorLabel.m; path = BaseClasses/SDErrorLabel.m; sourceTree = "<group>"; };
+		B6227210195389AA00D5C0EB /* SD6PINDigitValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SD6PINDigitValidator.h; path = Validators/SD6PINDigitValidator.h; sourceTree = "<group>"; };
+		B6227211195389AA00D5C0EB /* SD6PINDigitValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SD6PINDigitValidator.m; path = Validators/SD6PINDigitValidator.m; sourceTree = "<group>"; };
+		B62272131953936800D5C0EB /* SD5To8PasscodeValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SD5To8PasscodeValidator.h; path = Validators/SD5To8PasscodeValidator.h; sourceTree = "<group>"; };
+		B62272141953936800D5C0EB /* SD5To8PasscodeValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SD5To8PasscodeValidator.m; path = Validators/SD5To8PasscodeValidator.m; sourceTree = "<group>"; };
+		B6227216195394E800D5C0EB /* SDFieldValidationProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SDFieldValidationProtocol.h; path = Protocols/SDFieldValidationProtocol.h; sourceTree = "<group>"; };
+		B62272171953974D00D5C0EB /* SDKeyboardScrollProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SDKeyboardScrollProtocol.h; path = Protocols/SDKeyboardScrollProtocol.h; sourceTree = "<group>"; };
+		B6227218195397C400D5C0EB /* SDBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDBaseViewController.h; path = BaseClasses/SDBaseViewController.h; sourceTree = "<group>"; };
+		B6227219195397C400D5C0EB /* SDBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDBaseViewController.m; path = BaseClasses/SDBaseViewController.m; sourceTree = "<group>"; };
+		B622721B19539D5E00D5C0EB /* SDFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDFormViewController.h; path = BaseClasses/SDFormViewController.h; sourceTree = "<group>"; };
+		B622721C19539D5E00D5C0EB /* SDFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDFormViewController.m; path = BaseClasses/SDFormViewController.m; sourceTree = "<group>"; };
 		D9AF15C1195333A500276EFD /* FieldValidator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FieldValidator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9AF15C4195333A500276EFD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D9AF15C6195333A500276EFD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +81,9 @@
 		D9AF15EE195333A600276EFD /* FieldValidatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FieldValidatorTests-Info.plist"; sourceTree = "<group>"; };
 		D9AF15F0195333A600276EFD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D9AF15F2195333A600276EFD /* FieldValidatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FieldValidatorTests.m; sourceTree = "<group>"; };
+		D9AF15FF1953363700276EFD /* SDValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDValidator.h; path = BaseClasses/SDValidator.h; sourceTree = "<group>"; };
+		D9AF16001953363700276EFD /* SDValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDValidator.m; path = BaseClasses/SDValidator.m; sourceTree = "<group>"; };
+		D9AF160219533A4700276EFD /* SDValidatorProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SDValidatorProtocol.h; path = Protocols/SDValidatorProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +110,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B622720419537CFE00D5C0EB /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				B622720519537D3100D5C0EB /* NSString+SDValidations.h */,
+				B622720619537D3100D5C0EB /* NSString+SDValidations.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
 		D9AF15B8195333A500276EFD = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +152,10 @@
 		D9AF15CA195333A500276EFD /* FieldValidator */ = {
 			isa = PBXGroup;
 			children = (
+				B622720419537CFE00D5C0EB /* Categories */,
+				D9AF15FE1953359200276EFD /* Validators */,
+				D9AF15FD1953358A00276EFD /* Protocols */,
+				D9AF15FC1953357900276EFD /* Base Classes */,
 				D9AF15D3195333A500276EFD /* SDAppDelegate.h */,
 				D9AF15D4195333A500276EFD /* SDAppDelegate.m */,
 				D9AF15D6195333A500276EFD /* Main_iPhone.storyboard */,
@@ -142,6 +184,7 @@
 			children = (
 				D9AF15F2195333A600276EFD /* FieldValidatorTests.m */,
 				D9AF15ED195333A600276EFD /* Supporting Files */,
+				B622720819537F9D00D5C0EB /* SDStringValidationTests.m */,
 			);
 			path = FieldValidatorTests;
 			sourceTree = "<group>";
@@ -153,6 +196,44 @@
 				D9AF15EF195333A600276EFD /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9AF15FC1953357900276EFD /* Base Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D9AF15FF1953363700276EFD /* SDValidator.h */,
+				D9AF16001953363700276EFD /* SDValidator.m */,
+				B622720A195385D200D5C0EB /* SDTextField.h */,
+				B622720B195385D200D5C0EB /* SDTextField.m */,
+				B622720D1953861C00D5C0EB /* SDErrorLabel.h */,
+				B622720E1953861C00D5C0EB /* SDErrorLabel.m */,
+				B6227218195397C400D5C0EB /* SDBaseViewController.h */,
+				B6227219195397C400D5C0EB /* SDBaseViewController.m */,
+				B622721B19539D5E00D5C0EB /* SDFormViewController.h */,
+				B622721C19539D5E00D5C0EB /* SDFormViewController.m */,
+			);
+			name = "Base Classes";
+			sourceTree = "<group>";
+		};
+		D9AF15FD1953358A00276EFD /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				D9AF160219533A4700276EFD /* SDValidatorProtocol.h */,
+				B6227216195394E800D5C0EB /* SDFieldValidationProtocol.h */,
+				B62272171953974D00D5C0EB /* SDKeyboardScrollProtocol.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		D9AF15FE1953359200276EFD /* Validators */ = {
+			isa = PBXGroup;
+			children = (
+				B6227210195389AA00D5C0EB /* SD6PINDigitValidator.h */,
+				B6227211195389AA00D5C0EB /* SD6PINDigitValidator.m */,
+				B62272131953936800D5C0EB /* SD5To8PasscodeValidator.h */,
+				B62272141953936800D5C0EB /* SD5To8PasscodeValidator.m */,
+			);
+			name = Validators;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,7 +281,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = SD;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Mladen Despotovic";
 				TargetAttributes = {
 					D9AF15E4195333A500276EFD = {
@@ -254,9 +335,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B622720F1953861C00D5C0EB /* SDErrorLabel.m in Sources */,
 				D9AF15D1195333A500276EFD /* main.m in Sources */,
+				B622721A195397C400D5C0EB /* SDBaseViewController.m in Sources */,
+				B62272151953936800D5C0EB /* SD5To8PasscodeValidator.m in Sources */,
+				D9AF16011953363700276EFD /* SDValidator.m in Sources */,
+				B622720C195385D200D5C0EB /* SDTextField.m in Sources */,
+				B6227212195389AA00D5C0EB /* SD6PINDigitValidator.m in Sources */,
 				D9AF15DE195333A500276EFD /* SDViewController.m in Sources */,
 				D9AF15D5195333A500276EFD /* SDAppDelegate.m in Sources */,
+				B622721D19539D5E00D5C0EB /* SDFormViewController.m in Sources */,
+				B622720719537D3100D5C0EB /* NSString+SDValidations.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +353,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B622720919537F9D00D5C0EB /* SDStringValidationTests.m in Sources */,
 				D9AF15F3195333A600276EFD /* FieldValidatorTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,7 +408,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -358,7 +447,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -417,7 +505,6 @@
 		D9AF15FA195333A600276EFD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FieldValidator.app/FieldValidator";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -440,7 +527,6 @@
 		D9AF15FB195333A600276EFD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FieldValidator.app/FieldValidator";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -475,6 +561,7 @@
 				D9AF15F8195333A600276EFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9AF15F9195333A600276EFD /* Build configuration list for PBXNativeTarget "FieldValidatorTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +570,7 @@
 				D9AF15FB195333A600276EFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

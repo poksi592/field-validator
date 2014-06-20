@@ -6,7 +6,6 @@
 //  Copyright (c) 2014 Mladen Despotovic. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
 
 @interface SDAppDelegate : UIResponder <UIApplicationDelegate>
 
